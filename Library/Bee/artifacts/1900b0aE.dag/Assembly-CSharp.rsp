@@ -300,9 +300,10 @@
 -r:"C:/Program Files/Unity/Hub/Editor/2021.1.21f1/Editor/Data/NetStandard/Extensions/2.0.0/System.Numerics.Vectors.dll"
 -r:"C:/Program Files/Unity/Hub/Editor/2021.1.21f1/Editor/Data/NetStandard/Extensions/2.0.0/System.Runtime.InteropServices.WindowsRuntime.dll"
 -r:"C:/Program Files/Unity/Hub/Editor/2021.1.21f1/Editor/Data/NetStandard/ref/2.0.0/netstandard.dll"
--r:"C:/Users/Bence/Multi Test/Library/PackageCache/com.unity.cinemachine@2.7.8/Runtime/ThirdParty/clipper_library.dll"
--r:"C:/Users/Bence/Multi Test/Library/PackageCache/com.unity.nuget.mono-cecil@1.10.1-preview.1/Mono.Cecil.dll"
--r:"C:/Users/Bence/Multi Test/Library/PackageCache/com.unity.visualscripting@1.6.1/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll"
+-r:"C:/Users/Bence/multitest/multitest/Library/PackageCache/com.unity.cinemachine@2.7.8/Runtime/ThirdParty/clipper_library.dll"
+-r:"C:/Users/Bence/multitest/multitest/Library/PackageCache/com.unity.nuget.mono-cecil@1.10.1-preview.1/Mono.Cecil.dll"
+-r:"C:/Users/Bence/multitest/multitest/Library/PackageCache/com.unity.visualscripting@1.6.1/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp-firstpass.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Cinemachine.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/com.unity.cinemachine.editor.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.Multiplayer.MLAPI.Prototyping.ref.dll"
@@ -331,9 +332,14 @@
 "Assets/3rdPerson+Fly/Scripts/PlayerScripts/BasicBehaviour.cs"
 "Assets/3rdPerson+Fly/Scripts/PlayerScripts/FlyBehaviour.cs"
 "Assets/3rdPerson+Fly/Scripts/PlayerScripts/MoveBehaviour.cs"
+"Assets/Scripts/ConnectionPayload.cs"
 "Assets/Scripts/GameManager.cs"
 "Assets/Scripts/GamePlayer.cs"
 "Assets/Scripts/ParticleSpawner.cs"
+"Assets/Scripts/PasswordNetworkManager.cs"
+"Assets/Scripts/PlayerData.cs"
+"Assets/Scripts/PlayerName.cs"
+"Assets/Scripts/Steamworks.NET/SteamManager.cs"
 -langversion:8.0
 
 /deterministic
