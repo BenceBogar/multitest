@@ -21,14 +21,18 @@ namespace MultiTest
         public float turnSmoothTime = 0.1f;
         public float turnSmoothVelocity = 0.1f;
         public Transform cam;
+        public Camera camera;
         public override void NetworkStart()
         {
             controller = gameObject.AddComponent<CharacterController>();
             Move();
+            
         }
         void Update()
         {
             if(!IsOwner) { return; }
+            Debug.Log(camera.enabled);
+            camera.enabled = true;
             float horizontal = Input.GetAxisRaw("Horizontal");
             float vertical = Input.GetAxisRaw("Vertical");
             Vector3 direction = new Vector3(horizontal, 0f, vertical).normalized;
